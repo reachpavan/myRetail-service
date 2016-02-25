@@ -20,14 +20,18 @@ public class Application {
   @Bean
   CommandLineRunner init(final ProductRepository productRepository) {
     return arg0 -> {
-      logger.info("Initializing database.");
-      productRepository.deleteAll();
-      productRepository.save(new Product("13860428", 15.0, "USD"));
-      productRepository.save(new Product("15117729", 400.0, "USD"));
-      productRepository.save(new Product("16483589", 600.0, "USD"));
-      productRepository.save(new Product("16696652", 250.0, "USD"));
-      productRepository.save(new Product("16752456", 30.0, "USD"));
-      logger.info("Initializing database complete.");
+      try {
+        logger.info("Initializing database.");
+        productRepository.deleteAll();
+        productRepository.save(new Product("13860428", 15.0, "USD"));
+        productRepository.save(new Product("15117729", 400.0, "USD"));
+        productRepository.save(new Product("16483589", 600.0, "USD"));
+        productRepository.save(new Product("16696652", 250.0, "USD"));
+        productRepository.save(new Product("16752456", 30.0, "USD"));
+        logger.info("Initializing database complete.");
+      } catch (Exception e){
+        logger.error("Trouble initializing database.", e);
+      }
     };
 
   }

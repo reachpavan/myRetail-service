@@ -42,7 +42,7 @@ public class TargetAPIService implements ProductDescriptionService {
             new LinkedList<>(Arrays.asList((String[]) new String[]{PRODUCT_COMPOSITE_RESPONSE, ITEMS, GENERAL_DESCRIPTION})));
       }
     } catch (Exception e) {
-      logger.info("Trouble getting the product description for productId: " + productId, e);
+      logger.error("Trouble getting the product description for productId: " + productId, e);
     }
     return productDescription;
   }
