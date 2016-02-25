@@ -13,10 +13,10 @@ This is the code written for myRetail service assignment. The service is deploye
   1. http://myretailapi-parepu.rhcloud.com/v1/product GET
   2. http://myretailapi-parepu.rhcloud.com:80/v1/product/{productId} GET, PUT
 
-#Swagger 2 Documentation:
+Swagger 2 Documentation:
     http://myretailapi-parepu.rhcloud.com/v2/api-docs?group=product
   
-#Spring Boot actuator resource:
+Spring Boot actuator resource:
     http://myretailapi-parepu.rhcloud.com/actuator
 
 
