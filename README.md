@@ -22,6 +22,7 @@ This code written for myRetail service assignment. The service is hosted using O
           "currency": "USD"
       }
       ```
+
 ###Swagger 2 Documentation
   http://myretailapi-parepu.rhcloud.com/v2/api-docs?group=product
 ###Spring Boot actuator resource
