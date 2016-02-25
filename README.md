@@ -10,9 +10,9 @@ This code written for myRetail service assignment. The service is hosted using O
 
 #Usage Instructions
 ##myRetail service end points:
-  > - http://myretailapi-parepu.rhcloud.com/v1/product GET
-  > - http://myretailapi-parepu.rhcloud.com:80/v1/product/{productId} GET, PUT
->###### PUT request payload
+  - http://myretailapi-parepu.rhcloud.com/v1/product GET
+  - http://myretailapi-parepu.rhcloud.com:80/v1/product/{productId} GET, PUT
+> PUT request payload
 >    {
         "productId": "13860428",
         "name": "BIG LEBOWSKI, THE Blu-ray",
