@@ -36,8 +36,6 @@ public class ProductServiceImpl implements ProductService {
     return StreamSupport.stream(iterable.spliterator(), false)
         .map(p -> ProductResponse.builder()
             .withProductId(p.getProductId())
-//            .withPrice(p.getPrice())
-//            .withCurrency(p.getCurrency())
             .build())
         .collect(Collectors.toList());
   }
