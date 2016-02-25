@@ -9,7 +9,7 @@ This code written for myRetail service assignment. The service is hosted using O
 5. slf4j and logback
 
 ##Usage Instructions
-###myRetail service end points
+####myRetail service end points
   - http://myretailapi-parepu.rhcloud.com/v1/product GET
   - http://myretailapi-parepu.rhcloud.com:80/v1/product/{productId} GET, PUT
     * PUT request payload
@@ -23,9 +23,9 @@ This code written for myRetail service assignment. The service is hosted using O
       }
       ```
 
-###Swagger 2 Documentation
+####Swagger 2 Documentation
   http://myretailapi-parepu.rhcloud.com/v2/api-docs?group=product
-###Spring Boot actuator resource
+####Spring Boot actuator resource
   http://myretailapi-parepu.rhcloud.com/actuator
 
 ##TODO
