@@ -12,3 +12,10 @@ This is the code written for myRetail service assignment. The service is deploye
   Swagger 2 Documentation:
   
   myRetail service end points:
+
+
+
+#TODO:
+1. Add unit and integration tests
+2. Add caching and better profiling
+3. Add Netflix OSS features
