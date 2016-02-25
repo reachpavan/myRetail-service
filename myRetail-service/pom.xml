@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.pavan</groupId>
-    <artifactId>product-api</artifactId>
+    <artifactId>myretail-service-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>starter</name>
+    <name>myretail-service-api</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
