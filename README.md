@@ -1,5 +1,5 @@
 # myRetail RESTful service
-This is the code written for myRetail service assignment. The service is deployed in Openshift cloud. 
+This code written for myRetail service assignment. The service is hosted using Openshift cloud services. 
 
 # Frameworks
 1. JDK 8
