@@ -35,6 +35,6 @@ This code written for myRetail service assignment. The service is hosted using O
 3. [ ] Add Netflix OSS features
 4. [ ] Add Security
 
-References
+#References
 1. http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
 2. RESTful Java Patterns and Best Practices by Bhakti Mehta
