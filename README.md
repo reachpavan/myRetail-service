@@ -13,7 +13,8 @@ This code written for myRetail service assignment. The service is hosted using O
   - http://myretailapi-parepu.rhcloud.com/v1/product GET
   - http://myretailapi-parepu.rhcloud.com:80/v1/product/{productId} GET, PUT
     * PUT request payload
-      ```json
+    
+      ``` json
       {
           "productId": "13860428",
           "name": "BIG LEBOWSKI, THE Blu-ray",
